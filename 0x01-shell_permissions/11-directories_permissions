@@ -1,2 +1,2 @@
 #!/bin/bash
-su chmod -R +777
+su chmod -R +111
