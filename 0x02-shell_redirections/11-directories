@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . .. \root\tmp
+find . -mindepth 1 -type d | wc -l
