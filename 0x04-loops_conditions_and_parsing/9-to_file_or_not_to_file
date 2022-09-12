@@ -2,7 +2,10 @@
 # bash scrip that gives info about school file
 if [ -e school ]
 then
-echo "school file  exists"
+echo "school file exists"
+else
+	echo "school file dose not exist"
+fi
 if [ -s school ]
 then
 echo "school file is not empty"
@@ -10,9 +13,6 @@ else
 echo "school file is empty"
 fi
 if [ -f school ]
-then "school is a regular file"
+then
+       echo "school is a regular file"
 fi
-else
-echo "school file dose not exist"
-fi
-
