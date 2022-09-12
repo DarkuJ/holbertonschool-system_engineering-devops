@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # displays Best School 10 times and "Hi" in the 9th time
 
-COUNTER=0
+COUNTER=1
 while [ $COUNTER -lt 11 ]
 do
     if [ $COUNTER = 9 ]
