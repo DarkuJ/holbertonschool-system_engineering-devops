@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# bash script that displays the contnets for cd
+content=0
+list=$(ls)
+for content in $list
+do
+echo "$content" | cut -d "-" -f2
+done
