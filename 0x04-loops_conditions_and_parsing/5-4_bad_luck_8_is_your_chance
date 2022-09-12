@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# script displaying "bad luck 4th loop good luck 8th loop best school other" 
+CONTER=0
+while [ $CONTER -lt 10 ];
+do
+    if [ $CONTER -eq 4 ]
+    then
+echo "bad luck"
+    elif [ $CONTER -eq 8 ]
+    then
+echo "good luck"
+    else
+echo "Best School"
+    fi
+    let CONTER=CONTER+1
+done
