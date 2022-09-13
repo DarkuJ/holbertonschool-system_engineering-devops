@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # a bash script that displays to innfinity and beyond and i am invincible
-
 trap "echo I am invinncible!!!" SIGTERM
 while true; do
 echo "To infinity and beyond"
